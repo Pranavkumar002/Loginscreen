@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Loginscreen</string>
+    <string name="please_enter_username">Please Enter Username</string>
+    <string name="please_enter_password">Please Enter Password</string>
+    <string name="login_successfully">Login Successfully</string>
+    <string name="enter_phone">Enter Phone</string>
+</resources>
