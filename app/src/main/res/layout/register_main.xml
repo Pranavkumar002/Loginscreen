@@ -93,11 +93,11 @@
             android:text="@string/female" />
 
         <RadioButton
-            android:id="@+id/rbOther"
+            android:id="@+id/rbTransgender"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
 
-            android:text="@string/others" />
+            android:text="@string/transgender" />
     </RadioGroup>
 
     <Button
