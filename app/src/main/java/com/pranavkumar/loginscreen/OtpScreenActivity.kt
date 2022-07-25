@@ -30,11 +30,10 @@ class OtpScreenActivity : AppCompatActivity() {
         tvResend = findViewById(R.id.tvResend)
 
         btnVerify.setOnClickListener{
+            Toast.makeText(this,resources.getString(R.string.otp_verify), Toast.LENGTH_LONG).show()
 
         }
 
-        tvResend.setOnClickListener{
 
-        }
     }
 }

@@ -58,19 +58,21 @@
         android:layout_marginRight="@dimen/layout_margin_60dp"
         android:layout_marginTop="@dimen/layout_margin_25dp"
         >
+
         <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:maxLength="1"
-            android:digits="0123456789"
             android:id="@+id/etOtp1"
-            />
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/layout_margin_30dp"
+            android:digits="0123456789"
+            android:maxLength="1" />
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:digits="0123456789"
+            android:paddingLeft="@dimen/layout_margin_30dp"
             android:maxLength="1"
             android:id="@+id/etOtp2"
             />
@@ -79,6 +81,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:digits="0123456789"
+            android:paddingLeft="@dimen/layout_margin_30dp"
             android:maxLength="1"
             android:id="@+id/etOtp3"
 
@@ -88,6 +91,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:digits="0123456789"
+            android:paddingLeft="@dimen/layout_margin_30dp"
             android:maxLength="1"
             android:id="@+id/etOtp4"
 

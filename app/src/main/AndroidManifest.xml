@@ -16,7 +16,7 @@
         <activity
             android:name=".OtpScreenActivity"
             android:exported="false" />
-        
+
         <activity
             android:name=".ForgotPasswordActivity"
             android:exported="false" />
