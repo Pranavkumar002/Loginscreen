@@ -24,4 +24,9 @@
     <string name="please_enter_email">"Please Enter Email "</string>
     <string name="enter_otp">Enter OTP</string>
     <string name="otp_verify">OTP Verify</string>
+    <string name="enter_first_name">Enter First Name</string>
+    <string name="enter_last_name">Enter Last Name</string>
+    <string name="at_least_6_numbers">At least 6 Numbers</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="enter_10_numbers">Enter 10 Number</string>
 </resources>

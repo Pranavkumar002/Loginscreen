@@ -3,6 +3,7 @@ package com.pranavkumar.loginscreen
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.*
+import androidx.core.widget.doOnTextChanged
 
 class OtpScreenActivity : AppCompatActivity() {
 
@@ -28,6 +29,9 @@ class OtpScreenActivity : AppCompatActivity() {
         etOtp4 = findViewById(R.id.etOtp4)
         btnVerify = findViewById(R.id.btnVerify)
         tvResend = findViewById(R.id.tvResend)
+
+
+        
 
         btnVerify.setOnClickListener{
             Toast.makeText(this,resources.getString(R.string.otp_verify), Toast.LENGTH_LONG).show()

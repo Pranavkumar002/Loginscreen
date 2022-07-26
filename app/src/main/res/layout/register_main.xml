@@ -53,6 +53,8 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/layout_margin_60dp"
         android:hint="Set Password"
+        android:digits="0123456789"
+        android:inputType="number"
         android:paddingLeft="10dp"
         android:textColorHint="@color/black"
         android:layout_marginTop="@dimen/layout_margin_5dp"
