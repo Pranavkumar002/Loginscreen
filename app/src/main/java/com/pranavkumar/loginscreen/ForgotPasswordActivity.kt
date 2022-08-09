@@ -36,9 +36,7 @@ class ForgotPasswordActivity : AppCompatActivity() {
 
 
         btnSend.setOnClickListener {
-            var intent = Intent(this, OtpScreenActivity::class.java)
-            startActivity(intent)
-            finish()
+
             System.out.println("clicked")
             var enteremail = etEnterEmail.text.toString()
             var phonenumber = etPhonenumber.text.toString()
@@ -51,7 +49,9 @@ class ForgotPasswordActivity : AppCompatActivity() {
                 etPhonenumber.requestFocus()
             } else {
                 Toast.makeText(this,resources.getString(R.string.send_otp), Toast.LENGTH_SHORT).show()
-
+                var intent = Intent(this, OtpScreenActivity::class.java)
+                startActivity(intent)
+                finish()
             }
 
 

@@ -30,8 +30,23 @@ class OtpScreenActivity : AppCompatActivity() {
         btnVerify = findViewById(R.id.btnVerify)
         tvResend = findViewById(R.id.tvResend)
 
+        etOtp1.doOnTextChanged {text,_,_,_->
+            if((text?.length?:0)>0){
+                etOtp2.requestFocus()
+            }
 
-        
+            etOtp2.doOnTextChanged{text,_,_,_->
+                if((text?.length?:0)>0){
+                    etOtp3.requestFocus()
+                }
+                etOtp3.doOnTextChanged{text,_,_,_->
+                    if((text?.length?:0)>0){
+                        etOtp4.requestFocus()
+                    }
+
+
+
+
 
         btnVerify.setOnClickListener{
             Toast.makeText(this,resources.getString(R.string.otp_verify), Toast.LENGTH_LONG).show()
@@ -39,5 +54,11 @@ class OtpScreenActivity : AppCompatActivity() {
         }
 
 
+
+
+            }
+
+            }
+        }
     }
 }
