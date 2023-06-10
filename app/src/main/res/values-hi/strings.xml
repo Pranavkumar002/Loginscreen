@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="please_enter_username">कृपया उपयोगकर्ता नाम दर्ज करें</string>
+    <string name="please_enter_password">कृपया पासवर्ड दर्ज करें</string>
+    <string name="login_successfully">सफलतापूर्वक लॉगिन करें</string>
+    <string name="enter_phone">फ़ोन दर्ज करें</string>
+    <string name="sign_in">दाखिल करना</string>
+    <string name="google">गूगल</string>
+    <string name="register">रजिस्टर</string>
+    <string name="forgot_password">पासवर्ड भूल गए</string>
+    <string name="login">लॉग इन करें</string>
+</resources>

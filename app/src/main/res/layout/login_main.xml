@@ -22,7 +22,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
-            android:text="Sign in"
+            android:text="@string/sign_in"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:padding="@dimen/layout_margin_20dp"
@@ -36,7 +36,7 @@
         android:layout_width="match_parent"
         android:layout_height="64dp"
         android:layout_marginTop="40dp"
-        android:hint="@string/email"
+        android:hint="@string/please_enter_email"
         android:maxLength="15"
         android:paddingLeft="30dp"
         android:textColorHint="@color/black"
@@ -51,7 +51,7 @@
         android:digits="0123456789"
         android:inputType="number"
         android:maxLength="10"
-        android:hint="Password"
+        android:hint="Enter Password"
         android:paddingLeft="30dp"
         android:textColorHint="@color/black" />
     <LinearLayout
@@ -59,27 +59,28 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <Button
+        <TextView
             android:id="@+id/btnRegister"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_weight="1"
-            android:text="Register"
+            android:text="@string/register"
             android:textAlignment="viewStart"
-            android:textSize="12sp"
+            android:textColor="@color/white"
+            android:textSize="20sp"
             android:background="@android:color/transparent"
 
              />
-    <Button
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:id="@+id/btnForgot"
-        android:text="Forget Password"
-
+        android:text="@string/forgot_password"
+        android:textColor="@color/white"
         android:textAlignment="viewEnd"
-        android:textSize="12sp"
+        android:textSize="20sp"
         android:layout_marginTop="10dp"
         android:paddingRight="10dp"
         android:background="@android:color/transparent"
@@ -90,7 +91,7 @@
         android:layout_height="60dp"
         android:layout_marginLeft="158dp"
         android:layout_marginTop="20dp"
-        android:text="Login"
+        android:text="@string/login"
         android:id="@+id/btnLogin"
         android:backgroundTint="@color/design_default_color_secondary_variant"
 
