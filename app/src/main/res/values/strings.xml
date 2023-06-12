@@ -30,4 +30,5 @@
     <string name="enter_10_numbers" translatable="false">Enter 10 Number</string>
     <string name="he" translatable="false">He</string>
     <string name="login">Login</string>
+    <string name="dark_mode">Dark Mode</string>
 </resources>
